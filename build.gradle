@@ -9,4 +9,10 @@ diffCoverageReport {
 
     diffSource.git.compareWith 'refs/remotes/origin/master'
 
+    reports {
+        html = true
+    }
+
+    violationRules.failIfCoverageLessThan 0.9
+
 }
