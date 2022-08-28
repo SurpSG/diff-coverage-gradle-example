@@ -1,0 +1,6 @@
+rootProject.name = 'diff-coverage-gradle-example'
+
+include 'subproj-1'
+include 'subproj-2'
+include 'subproj-2'
+

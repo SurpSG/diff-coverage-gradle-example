@@ -1,0 +1,12 @@
+plugins {
+    id 'com.form.diff-coverage' version '0.9.5'
+}
+
+group 'org.github.surpsg'
+version '1.0-SNAPSHOT'
+
+diffCoverageReport {
+
+    diffSource.git.compareWith 'refs/remotes/origin/master'
+
+}
